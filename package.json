@@ -1,0 +1,27 @@
+{
+  "name": "the-tech-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FSchmidt292/the-tech-blog.git"
+  },
+  "author": "FSchmidt292",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FSchmidt292/the-tech-blog/issues"
+  },
+  "homepage": "https://github.com/FSchmidt292/the-tech-blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.2"
+  }
+}
