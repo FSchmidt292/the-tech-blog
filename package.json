@@ -19,6 +19,7 @@
   "homepage": "https://github.com/FSchmidt292/the-tech-blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "create-react-app": "^5.0.1",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mysql2": "^2.3.3",
