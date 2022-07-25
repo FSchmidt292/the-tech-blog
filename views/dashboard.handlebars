@@ -1,7 +1,4 @@
 <section>
-  <h2>Your posts</h2>
-</section>
-<section>
   <h2>Create New Post</h2>
 
   <form class="new-post-form">
@@ -24,11 +21,11 @@
     {{#each posts as |post|}}
     <li>
       {{> post-info post}}
-      <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+      <a href="/dashboard/edit/{{post.id}}" class="edit-post">Edit post</a>
     </li>
     {{/each}}
   </ol>
 </section>
 {{/if}}
 
-<script src="/javascript/add-post.js"></script>
+<script src="/javascript/edit-post.js"></script>
