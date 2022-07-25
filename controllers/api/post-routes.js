@@ -90,7 +90,6 @@ router.post('/', withAuth, (req, res) => {
   });
 });
 
-//update's a post
 router.put('/:id', withAuth, (req, res) => {
     Post.update(
         {
